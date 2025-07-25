@@ -4,7 +4,7 @@
 let texto;
 let i = 0;
 
-while (i < 10) {
+while (i <= 10) {
   texto = "El número es " + i;
   i++;
   console.log(texto);
@@ -15,9 +15,9 @@ let suma = 0;
 
 do {
   // Ejecuta el código al menos una vez
-  console.log("El número es: " + suma);
+  console.log("El número =: " + suma);
   suma++;
-} while (suma >= 5); // Esta condición está hecha para que se ejecute solo una vez
+} while (suma <= 5); // Esta condición está hecha para que se ejecute solo una vez
 
 // for
 // Repite un bloque de código un número determinado de veces
